@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Open+Sans&family=Raleway:wght@200&family=Roboto&display=swap');
+*{
+    margin: 0 ;
+    padding: 0 ;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(https://cdn.wallpapersafari.com/80/88/nZ6G80.png);
+    background-size: cover;
+    display:flex;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: center;
+    font-family: Roboto ;
+}
+.container{
+    margin-top: 60px ;
+    width: 800px;
+    height: 500px;
+    background: rgba(255, 255, 255, 0.065);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.399);
+    backdrop-filter: blur(3px);
+    -webkit-backdrop-filter: blur(3px);
+    border: 1px solid rgba(255, 255, 255, 0.093);
+}
+.navbar{
+    display: flex;
+    margin: 20px  auto;
+    width: 300px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+}
+.nav{
+    height: 20px;
+    text-align: center;
+    color:	#C0C0C0;
+    padding:  0 10px;
+    font-size: 15px;
+    text-decoration: none;
+}
+.nav:hover{
+    color: rgba(242, 22, 22, 0.7);
+    font-weight: bold;
+}
+.main{
+    display: flex;
+    width: 100%;
+}
+.left{
+    width: 400px;
+    padding-left: 20px;
+}
+.left .top{
+    font-family: Krona one;
+    font-size: 13px;
+}
+.left .discription{
+    margin-top: 20px;
+    width: 300px;
+    color: rgb(254, 253, 255);
+    text-align: justify;
+    font-size: 14px;
+    line-height: 20px;
+}
+.left .down{
+    color: rgb(192, 192, 192);
+    font-family: Krona one;
+    margin-top: 30px;
+    font-size: 10px;
+}
+.right{
+    width: 400px;
+    text-align: center;  
+}
+.bmw1{
+    width: 500px;
+}
+.button_change {
+    position: relative;
+    bottom: 50px;
+    color: #c4d80f;
+    padding: 0.7em 1.7em;
+    font-size: 11px;
+    border-radius: 0.5em;
+    background: #3510f3;
+    border: 1px solid #700de8;
+    transition: all .3s;
+    box-shadow: 3px 3px 9px #ef3a3a,
+                -3px -3px 9px #0bedf4;
+}
+button:hover {
+    border: 1px solid white;
+}
+button:active {
+    box-shadow: 3px 3px 9px #c5c5c5,
+                -3px -3px 9px #ffffff;
+}
+@media screen and (max-width: 576px) {
+   
+    .container{
+        width: 100%;
+        height: 700px ;
+    }
+    .nav{
+        display: none;
+    }
+    .main{
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .main .left{
+        text-align: center;
+        width: 100%;
+        padding: 0;
+    }
+    .main .left .top{
+        font-size: 10px;
+    }
+    .main .left .discription{
+        width: 60%;
+        margin: 40px auto;
+        background-color: rgba(255, 192, 203, 0.394);
+        color: rgb(16, 22, 43);
+        padding: 7px;
+        border-radius: 7px;
+    } 
+    .main .right{
+        padding: 0;
+        width: 100%;
+    }
+    .bmw1{
+        width: 250px;
+    } 
+    .button{
+        margin-top: 30px;
+    }
+}
+
+
+
+
+
+
