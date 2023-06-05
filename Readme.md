@@ -2,4 +2,4 @@
 
 - Project BMW
 
-[website]("https://sepandar84.github.io/BMW-Project/")
+[website]("https://sepandar84.github.io/BMW-Project")
